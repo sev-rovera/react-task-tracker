@@ -49,7 +49,7 @@ function App() {
         {showAddTask && <AddTask onAdd={addTask} />}
         {tasks.length > 0 ?
           <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/> :
-          <h4>No task</h4>
+          <h4>No task for now</h4>
         }
     </div>
   );
